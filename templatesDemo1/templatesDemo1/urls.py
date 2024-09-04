@@ -19,5 +19,5 @@ from django.urls import path
 from templatesApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('render/',views.renderizar)
+    path('render/',views.renderizar5),
 ]
